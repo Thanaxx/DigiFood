@@ -1,0 +1,52 @@
+.menu{
+    min-height: 100vh;
+}
+
+/* menu top */
+.menuCaption, .menuA, .menuB{
+    display: flex;
+    margin: 50px 0px;
+}
+.menuCaption > div{
+    flex: 1;
+    margin: auto;
+}
+.menuTitle h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #EAEAEA;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.menuDesc p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #bebebe;
+    text-align: justify;
+}
+
+/* 1st menu */
+.menuA > div{
+    flex: 1;
+    margin: auto;
+}
+.imageA img{
+    border-radius: 100%;
+}
+.imageADesc{
+    padding: 20px;
+    text-align: justify;
+    padding: 0px 50px;
+}
+.imageADesc p{
+    font-size: 17px;
+    color: #bebebe;
+}
+.menuA h2{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Rock Salt', cursive;
+    color: #FFA47B;
+    letter-spacing: 3px;
+    font-size: 35px;
+}

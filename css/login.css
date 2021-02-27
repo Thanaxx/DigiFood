@@ -1,0 +1,72 @@
+*{
+    color: white;
+}
+.loginContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+.loginContainer nav{
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.loginContainer nav button{
+    padding: 6px 10px;
+    color: #e0e0e0;
+    float: right;
+    background-color: #2A2A2A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.loginForm{
+    width: 450px;
+    min-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: animate 0.9s;
+}
+@keyframes animate{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 50%;
+    }
+}
+
+.loginForm h1{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.loginForm p{
+    font-size: 18px;
+}
+.loginForm button{
+    width: 100%;
+    padding: 7px 0px;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.fbBtn{
+    background-color: #1010d8;
+    color: #2A2A2A;
+    border: none;
+    outline: none; 
+}
+.emailBtn{
+    background-color: #2A2A2A;
+    color: white;
+    border: 1px solid white;
+    outline: none; 
+}

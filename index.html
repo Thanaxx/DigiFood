@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
+    <link rel="stylesheet" type="text/css" href="./css/homenu.css">
+    <link rel="stylesheet" type="text/css" href="./css/details.css">
+    <link rel="stylesheet" type="text/css" href="./css/more.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="stylesheet" type="text/css" href="./css/foods.css">
+    <link rel="stylesheet" type="text/css" href="./css/order.css">
+
+    <link rel="stylesheet" href="./cssFontawesome/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins+Salt&display=swap" rel="stylesheet">
+    <title>DigiFood | Order now!</title>
+</head>
+<body>
+
+        <!-- LOGIN MODAL -->
+    <div class="loginContainer" style="display: none;">
+        <nav>
+            <button class="cancelLogin">Cancel</button>
+        </nav>
+        <form action="" class="loginForm">
+            <h1>Welcome!</h1>
+            <p>Sign up or Login to continue...</p>
+
+            <button class="fbBtn">CONTINUE WITH FACEBOOK</button> <br>
+            <p>or</p>
+            <button class="emailBtn">CONTINUE WITH EMAIL</button>
+        </form>
+    </div>
+
+    <!-- CONTACT MODAL -->
+    <div class="contactContainer" style="display: none;">
+        <nav>
+            <button class="cancelContact">Cancel</button>
+        </nav>
+        <form action="" class="contactForm">
+            <p>Connect with us!</p>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="">
+
+                <label for="emailadd">Email Address</label>
+                <input type="email" name="emailadd" id="">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                
+                <input type="submit" value="Send" id="sendCont">
+            </form>
+        </form>
+    </div>
+
+
+    <!-- menu -->
+    <div class="menuWrapper" style="display: none;">
+        <nav>
+            <button class="cancelMenu">Cancel</button>
+        </nav>
+
+        <div class="searchBar">
+            <input type="search" name="" id="" placeholder="Search menu...">
+        </div>
+
+        <div class="menuCategory">
+            <button>Desserts</button>
+            <button>Appetizer</button>
+            <button>Drinks</button>
+            <button>Others</button>
+        </div>
+
+        <div class="menuFoods">
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button class="ordernow">Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME2</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button class="ordernow">Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+            <div class="food">
+                <div class="foodimg">
+                    <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                </div>
+                <div class="foodDesc">
+                    <h2>FOOD NAME</h2>
+                    <p>123.455</p>
+                    <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                    <button>Order</button>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+    <!-- CONFIRMATION OF ORDER -->
+    <div class="orderDetails" style="display: none;">
+        <nav>
+            <button class="cancelOrder">Cancel</button>
+        </nav>
+
+        <div class="viewOrder">
+            <h3>CONFIRM YOUR ORDER</h3>
+
+            <div class="selectedOrders">
+                <h1>Food selected: </h1>
+
+                <div class="food">
+                    <div class="foodimg">
+                        <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                    </div>
+                    <div class="foodDesc">
+                        <h2>FOOD NAME</h2>
+                        <p>123.455</p>
+                        <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                        <button>delete</button>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="foodimg">
+                        <img src="./imgs/markus-winkler-2OZE4iFdvyI-unsplash.jpg" alt="" width="170px" height="140px">
+                    </div>
+                    <div class="foodDesc">
+                        <h2>FOOD NAME</h2>
+                        <p>123.455</p>
+                        <p>Lorem i, vero similique quasi in dolores obcaecati quod fuga, numquam debitis nisi quae cupiditate voluptatibus.</p>
+                        <button>delete</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="orderConfirmation">
+
+                <form action="" class="orderForm">
+                    <p>Complete your order details</p>
+                    
+                    <label for="fullname">Fullname</label>
+                    <input type="text" name="fullname" id="">
+
+                    <label for="pnumber">Phonenumber</label>
+                    <input type="number" name="pnumber" id="">
+
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="">
+
+                    <label for="total">Total price</label>
+                    <input type="text" name="total" id="">
+
+                    <input type="submit" value="Confirm order" id="submitOrder">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!-- HOME PAGE -->
+    <div class="homePage" style="display: block;">
+        <div class="homebg">
+            <img src="./imgs/digibg.png" alt="" width="100%" height="auto">
+        </div>
+
+        <nav class="homeNav">
+            <div class="digiFoodLogo">
+                <img src="./imgs/DFlogo.png" alt="" width="200px">
+            </div>
+
+            <div class="digiFoodLinks">
+                <a href="#">Home</a>
+                <a href="#abt">About</a>
+                <a href="#category">Categories</a>
+                <a href="#cont" class="contactPage">Contact</a>
+                <button class="login"><a href="#">Login</a></button>
+            </div>
+        </nav>
+
+        <!--HOME COVER  -->
+        <div class="homeCover">
+            
+            <div class="coverTitle">
+                <span class="mainTt">We feed your hungry <br>
+                    <span style="color: #2A2A2A; font-family: 'Secular One', sans-serif;">stomachs</span> remotely. <br>
+                </span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, neque dolorum impedit <br> cumque quasi veritatis vitae suscipit est. Doloribus, ipsum.
+                </p>
+
+                <div class="orderbtn">
+                    <button class="orderNow" onclick="order()">Order now!</button>
+                </div>
+            </div>
+
+            <div class="coverImg">
+                <img src="./imgs/difiPhn.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="sideIcons">
+            <a href="https://www.facebook.com/christeljoy.abordaje.3/"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/thanna_dev/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/Thannaxx"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/christeljoy-abordaje-782b63204/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+
+
+        <!-- ABOUT -->
+        <div class="about" id="abt">
+            <div class="aboutWrapper">
+                <div class="aboutImg">
+                    <img src="./imgs/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="aboutDescription">
+                    <h1>All about DigiFood</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt voluptatem corporis quisquam voluptate aliquam doloremque perspiciatis perferendis facilis exercitationem deserunt. Officiis aliquam veniam aperiam minima, necessitatibus omnis fugit earum, provident alias ratione reprehenderit tempore expedita quo ut inventore. Inventore, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati exercitationem quae tenetur enim magnam facilis atque adipisci rem assumenda nemo, aut nesciunt. A quae voluptates quasi ad eveniet non, debitis provident similique inventore atque, iusto voluptatum, nihil ratione odit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque consequuntur, sequi vero, officia odit ipsum minus ullam, iure reiciendis alias sit dolores. Voluptas, minima. Nesciunt optio corrupti vitae repellendus fugiat voluptatum animi totam enim cupiditate. Odit porro a cupiditate ea iure ipsa praesentium deserunt vel! Quo corrupti placeat delectus aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime ipsam adipisci? Error, dolorem quas necessitatibus vitae cupiditate similique soluta neque maiores magnam ea eligendi at repellat. Dicta, distinctio porro!</p>
+                    <button><a href="#">see more </a></button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- HOME MENU -->
+        <div class="menu" id="category">
+            <div class="menuWrapper">
+
+                <div class="menuCaption">
+                    <div class="menuTitle">
+                        <h1>OUR MENU</h1>
+                    </div>
+                    <div class="menuDesc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deserunt repellat dignissimos animi ipsam recusandae distinctio delectus doloremque nobis voluptatibus molestiae iste possimus, illo alias explicabo cumque pariatur dolore fugiat.</p>
+                    </div>
+                </div>
+
+                <div class="menuA">
+                    <div class="imageA">
+                        <h2>Desserts</h2>
+                        <img src="./imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="imageADesc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam labore, quaerat recusandae voluptas est itaque quas tempore sit nihil, dolor saepe maxime deleniti! Dolorem provident architecto culpa quidem harum?</p>
+                    </div>
+                </div>
+
+                <div class="menuA">
+                    <div class="imageADesc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam labore, quaerat recusandae voluptas est itaque quas tempore sit nihil, dolor saepe maxime deleniti! Dolorem provident architecto culpa quidem harum?</p>
+                    </div>
+                    <div class="imageA">
+                        <h2>Appetizers</h2>
+                        <img src="./imgs/quin-engle-PnCuMQITM3c-unsplash.jpg" alt="" width="100%" height="300px">
+                    </div>
+                </div>
+
+                <div class="menuA">
+                    <div class="imageA">
+                        <h2>Desserts</h2>
+                        <img src="./imgs/anna-pelzer-IGfIGP5ONV0-unsplash.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="imageADesc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam labore, quaerat recusandae voluptas est itaque quas tempore sit nihil, dolor saepe maxime deleniti! Dolorem provident architecto culpa quidem harum?</p>
+                    </div>
+                </div>
+
+                <div class="menuA">
+                    <div class="imageADesc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam labore, quaerat recusandae voluptas est itaque quas tempore sit nihil, dolor saepe maxime deleniti! Dolorem provident architecto culpa quidem harum?</p>
+                    </div>
+                    <div class="imageA">
+                        <h2>Appetizers</h2>
+                        <img src="./imgs/quin-engle-PnCuMQITM3c-unsplash.jpg" alt="" width="100%" height="300px">
+                    </div>
+                </div>
+        </div>
+
+        
+        <!-- DETAILS -->
+        <div class="details">
+            <div class="detailsWrapper">
+                <div class="detailsImg">
+                    <img src="./imgs/annie-spratt-rgKdv9DzVsc-unsplash.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="detailsDescription">
+                    <h1>Want to reach us?</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum obcaecati exercitationem quae tenetur enim magnam facilis atque adipisci rem assumenda nemo, aut nesciunt. A quae voluptates quasi ad eveniet non, debitis provident similique inventore atque, iusto voluptatum, nihil ratione odit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque consequuntur, sequi vero, officia odit ipsum minus ullam, iure reiciendis alias sit dolores. Voluptas, minima. Nesciunt optio corrupti vitae repellendus fugiat voluptatum animi totam enim cupiditate. Odit porro a cupiditate ea iure ipsa praesentium deserunt vel! Quo corrupti placeat delectus aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime ipsam adipisci? Error, dolorem quas necessitatibus vitae cupiditate similique soluta neque maiores magnam ea eligendi at repellat. Dicta, distinctio porro!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MORE OF US -->
+        <div class="offerWrapper">
+            <div class="offerDetails">
+                <p>DigiFood Inc.</p>
+                <h1>What we offer to everyone</h1>
+                <p class="dtls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime consequuntur sint dolor nisi obcaecati delectus officiis dolorem. Recusandae iure deleniti ullam delectus vitae quis voluptatibus nesciunt possimus saepe rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae minima velit dolorem harum in aliquam iure omnis nobis, eaque repudiandae accusantium voluptatibus soluta corrupti optio cumque facilis error reprehenderit id eos natus totam impedit enim quia quo. Doloremque, voluptatibus a eaque ab, reprehenderit, laborum libero quis illum voluptatum quidem numquam?</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+            <h1>@DigiFood2021</h1>
+    </footer>
+
+
+
+
+
+
+    <script src="./js/fnctn.js"></script>
+</body>
+</html>

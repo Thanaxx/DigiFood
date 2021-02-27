@@ -1,0 +1,21 @@
+.offerWrapper{
+    min-height: 50vh;
+    padding: 100px 140px;
+}
+.offerDetails{
+    text-align: center;
+    color: #EAEAEA;
+    margin: auto;
+}
+.offerDetails h1{
+    font-size: 50px;
+    color: #FFA47B;
+    padding: 10px 0;
+}
+.offerDetails p{
+    font-size: 18px;
+}
+.dtls{
+    text-align: justify;
+    color: #bebebe;
+}

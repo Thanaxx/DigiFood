@@ -1,0 +1,79 @@
+.orderDetails{
+    width: 100%;
+    min-height: 100vh;
+}
+.orderDetails nav{
+    width: 100%;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.orderDetails nav button{
+    padding: 6px 10px;
+    color: #e0e0e0;
+    float: right;
+    background-color: #2A2A2A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+/* FOOD SELECTED */
+.viewOrder{
+    padding: 90px 140px;
+}
+.viewOrder h3{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.selectedOrders h1{
+    padding: 10px 0;
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+}
+.food{
+    background-color: #444444;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+
+/* ORDER CONFIRMATION */
+.orderConfirmation{
+    width: 100%;
+    margin: 30px 0;
+}
+.orderForm{
+    width: 50%;
+    background-color: #444444;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+.orderForm p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #FFA47B;
+}
+.orderForm input{
+    width: 100%;
+    padding: 6px 10px;
+    color: #ffffff;
+    background-color: #444444;
+    font-size: 17px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+#submitOrder{
+    background-color: #FFA47B;
+    color: #444444;
+    border: none;
+    cursor: pointer;
+}
